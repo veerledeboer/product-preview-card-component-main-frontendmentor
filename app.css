@@ -1,0 +1,116 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* .imageMobile {
+    visibility: hidden;
+} */
+#perfume {
+    display: flex;
+    flex-direction: row;
+    width: 45rem;
+}
+
+img {
+	display: flex;
+	width: 22.5rem;
+	border-radius: 1rem 0rem 0rem 1rem;
+	margin-top: 0;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    width: 22.5rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    padding: 2em;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+h1, p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%)
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.7rem;
+    padding: 0;
+    margin: 0; 
+}
+
+p {
+    line-height: 1.7rem;
+    margin-top:0;
+}
+
+h2, h3 {
+    font-family: 'Fraunces', serif;
+    
+}
+
+h2 {
+    font-size: 2.7rem;
+    margin-top: 0.3rem; 
+    color: hsl(212, 21%, 14%);
+}
+
+#regularPrice{
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+
+#newPrice{
+    color: hsl(158, 36%, 37%);
+    font-size: 2.7rem;
+    margin: 0;
+}
+
+#cart {
+    height: 1rem;
+    width: 1rem;
+    padding-right:5px;
+}
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: hsl(158, 36%, 37%);
+    padding: 1rem;
+    border-radius: 0.7em;
+    border: 1px solid hsl(158, 36%, 37%);
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color:hsl(212, 21%, 14%);
+    border: 1px solid hsl(212, 21%, 14%);
+}
+
+@media (max-width:500px) {
+    .imageDesktop {
+        visibility: hidden;
+    }
+
+}
